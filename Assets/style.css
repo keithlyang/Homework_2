@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(57, 176, 223);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+    margin: 1%;
+}
+
+.header {
+    padding: 1%;
+    margin: 1% 0 1% 0;
+    font-size: 200%;
+    background-color: cornsilk;
+}
+
+.header ul {
+    background-color: gold;
+    margin-right: 10px;
+    float: right;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a:hover {
+    background-color: rgb(3, 71, 99);
+    box-shadow: 0 0 20px rgb(128, 57, 0);
+}
+
+.section {
+    padding: 1%;
+    margin: 1%;
+    background-color: darkkhaki;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food1.food1taco {
+    background-image: url("https://www.mcgill.ca/oss/files/oss/styles/hd/public/eatables-3873462_1920.jpg?itok=u-zzZg1P&timestamp=1560998397");
+}
+
+/* .section2 img {
+    width:
+} */
+
+.photo1 img {
+    width: 100px;
+    height: 100px;
+    /* background-color: green; */
+}
+
+/* .photo1 img:active {
+    
+} */
+
+@media screen and (max-width: 992px) {
+    .header {
+        background: rgb(245, 172, 13);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header ul {
+        background: rgb(4, 165, 90);
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .section2 {
+        text-align: center;
+    }
+}
